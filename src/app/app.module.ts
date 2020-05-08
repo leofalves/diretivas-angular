@@ -22,6 +22,8 @@ import { NgForFormComponent } from './ng-for-form/ng-for-form.component';
 import { MatButtonModule } from '@angular/material/button';
 import { NgSwitchComponent } from './ng-switch/ng-switch.component';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
+import { NgTemplateComponent } from './ng-template/ng-template.component';
+import { NgContainerComponent } from './ng-container/ng-container.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { MatProgressBarModule } from '@angular/material/progress-bar';
     SubNgIfComponent,
     NgForComponent,
     NgForFormComponent,
-    NgSwitchComponent
+    NgSwitchComponent,
+    NgTemplateComponent,
+    NgContainerComponent
   ],
   imports: [
     BrowserModule,
